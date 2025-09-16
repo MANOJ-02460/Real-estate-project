@@ -6,7 +6,7 @@ import propertyImage3 from '../Images/property3.png'
 
 const Properties = () => {
   return (
-    <div className='product'>
+    <div className='product' id='property'>
         <div className='p-heading'>
             <h3>Properties </h3>
             <p>Lorem ipsum dolor sit amet consectetur.</p>

@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <h3>Get The Best Property</h3>
         <form className='contact-input' onSubmit={handleSubmit}>
             <input type='email' placeholder='example@gmail.com' value={email} onChange={handleChange}/>

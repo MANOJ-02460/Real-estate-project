@@ -7,7 +7,7 @@ import agentImage3 from '../Images/Image3.png'
 
 const Agent = () => {
   return (
-    <div className='agent'>
+    <div className='agent' id='agents'>
         <div className='a-heading'>
             <h1>Agent</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

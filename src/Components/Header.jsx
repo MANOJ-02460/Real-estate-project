@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className='header' id='home'>
         <Navbar/>
         <div className='intro'>
             <p>Looking for a Property!</p>

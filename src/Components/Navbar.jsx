@@ -12,11 +12,11 @@ const Navbar = () => {
             <span className='nav-icon'></span>
         </label>
         <ul>
-            <li><a href="/" className='active' >Home</a></li>
+            <li><a href="#home" className='active' >Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="/agents">Agents</a></li>
-            <li><a href="/property">Property</a></li>
-            <li><a href='/contact'>Contact</a></li>
+            <li><a href="#agents">Agents</a></li>
+            <li><a href="#property">Property</a></li>
+            <li><a href='#contact'>Contact</a></li>
         </ul>
         <a href='#' className='property'>Properties</a>
     </nav>
