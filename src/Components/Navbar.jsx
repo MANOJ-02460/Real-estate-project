@@ -1,6 +1,12 @@
 import React from 'react'
 
-
+const navbar = [
+  {name:"Home", path:"#home"},
+  {name:"About", path:"#about"},
+  {name:"Agents", path:"#agents"},
+  {name:"Property", path:"#property"},
+  {name:"Contact", path:"#contact"}
+]
 const Navbar = () => {
   return (
     <nav>
@@ -11,12 +17,20 @@ const Navbar = () => {
         <label className='menu-icon' for='menu-btn'>
             <span className='nav-icon'></span>
         </label>
-        <ul>
+        {/* <ul>
             <li><a href="#home" className='active' >Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#agents">Agents</a></li>
             <li><a href="#property">Property</a></li>
             <li><a href='#contact'>Contact</a></li>
+        </ul> */}
+        <ul>
+          {navbar.map((x,i)=>{
+            return(
+              <li key={i}><a href={x.path}>{x.name}</a></li>
+            )
+          })}
+
         </ul>
         <a href='#' className='property'>Properties</a>
     </nav>
