@@ -1,5 +1,7 @@
 import React from 'react'
 
+import {Link} from 'react-router-dom'
+
 const navbar = [
   {name:"Home", path:"#home"},
   {name:"About", path:"#about"},
@@ -17,21 +19,22 @@ const Navbar = () => {
         <label className='menu-icon' for='menu-btn'>
             <span className='nav-icon'></span>
         </label>
-        {/* <ul>
-            <li><a href="#home" className='active' >Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#agents">Agents</a></li>
-            <li><a href="#property">Property</a></li>
-            <li><a href='#contact'>Contact</a></li>
-        </ul> */}
         <ul>
+            
+			<li><Link to="/">Home</Link></li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/agent'>Agents</Link></li>
+            <li><Link to='/property'>Property</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
+        </ul>
+        {/* <ul>
           {navbar.map((x,i)=>{
             return(
               <li key={i}><a href={x.path}>{x.name}</a></li>
             )
           })}
 
-        </ul>
+        </ul> */}
         <a href='#' className='property'>Properties</a>
     </nav>
   )

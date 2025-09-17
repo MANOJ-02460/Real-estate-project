@@ -3,9 +3,12 @@ import PropertiesBox from './PropertiesBox'
 import propertyImage1 from '../Images/property1.png'
 import propertyImage2 from '../Images/property2.png'
 import propertyImage3 from '../Images/property3.png'
+import Navbar from './Navbar'
 
 const Properties = () => {
   return (
+    <>
+    <Navbar/>
     <div className='product' id='property'>
         <div className='p-heading'>
             <h3>Properties </h3>
@@ -17,6 +20,7 @@ const Properties = () => {
               <PropertiesBox image={propertyImage3} name="RichMond" price="89L"/>
         </div>
     </div>
+    </>
   )
 }
 

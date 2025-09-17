@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
+import HowItWorks from './HowItWorks'
 
 const Header = () => {
   return (
+    <>
     <div className='header' id='home'>
         <Navbar/>
         <div className='intro'>
@@ -12,6 +14,8 @@ const Header = () => {
             <a href='#' className='header-btn'>Details</a>
         </div>
     </div>
+      <HowItWorks/>
+    </>
   )
 }
 

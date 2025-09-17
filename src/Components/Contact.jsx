@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { useState , useEffect } from 'react'
+import Navbar from './Navbar';
 
 
 
@@ -39,6 +40,8 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className='contact' id='contact'>
         <h3>Get The Best Property</h3>
         <form className='contact-input' onSubmit={handleSubmit}>
@@ -47,6 +50,7 @@ const Contact = () => {
         </form>
         <p style={{color: 'white'}}>{message}</p>
     </div>
+    </>
   )
 }
 
