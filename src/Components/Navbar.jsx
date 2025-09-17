@@ -26,6 +26,7 @@ const Navbar = () => {
             <li><Link to='/agent'>Agents</Link></li>
             <li><Link to='/property'>Property</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
+
         </ul>
         {/* <ul>
           {navbar.map((x,i)=>{

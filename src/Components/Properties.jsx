@@ -1,5 +1,5 @@
 import React from 'react'
-import PropertiesBox from './PropertiesBox'
+import Propertiesbox from './Propertiesbox'
 import propertyImage1 from '../Images/property1.png'
 import propertyImage2 from '../Images/property2.png'
 import propertyImage3 from '../Images/property3.png'
@@ -15,9 +15,9 @@ const Properties = () => {
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
         <div className='product-container'>
-              <PropertiesBox image={propertyImage1} name="RichMond" price="50L"/>
-              <PropertiesBox image={propertyImage2} name="RichMond" price="75L"/>
-              <PropertiesBox image={propertyImage3} name="RichMond" price="89L"/>
+              <Propertiesbox image={propertyImage1} name="RichMond" price="50L"/>
+              <Propertiesbox image={propertyImage2} name="RichMond" price="75L"/>
+              <Propertiesbox image={propertyImage3} name="RichMond" price="89L"/>
         </div>
     </div>
     </>

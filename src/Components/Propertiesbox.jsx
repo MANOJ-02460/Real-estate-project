@@ -1,7 +1,7 @@
 import React from 'react'
 import Properties from './Properties'
 
-const PropertiesBox = (props) => {
+const Propertiesbox = (props) => {
   return (
     <div className='p-box'>
         <img src={props.image} alt='Product'/>
@@ -12,4 +12,4 @@ const PropertiesBox = (props) => {
   )
 }
 
-export default PropertiesBox
+export default Propertiesbox
